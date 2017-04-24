@@ -45,8 +45,8 @@ http://alexgyver.ru/all-for-soldering/
 
 
 ## HOW TO
-const char* ssid = "LOGIN";           // имя wifi роутера / точки доступа  
-const char* password = "PASSWORD";    // пароль wifi роутера / точки доступа  
-String channel_ID = "ID";             // ID канала (копировать из строки адреса канала)  
-String API_key = "KEY";               // API ключ аккаунта канала (как получить: https://www.slickremix.com/docs/get-api-key-for-youtube/ )  
-int max_gain = 180;   // число подписок в час, при котором цвет станет красным  
+* const char* ssid = "LOGIN";           // имя wifi роутера / точки доступа  
+* const char* password = "PASSWORD";    // пароль wifi роутера / точки доступа  
+* String channel_ID = "ID";             // ID канала (копировать из строки адреса канала)  
+* String API_key = "KEY";               // API ключ аккаунта канала (как получить: https://www.slickremix.com/docs/get-api-key-for-youtube/ )  
+* int max_gain = 180;   // число подписок в час, при котором цвет станет красным  
