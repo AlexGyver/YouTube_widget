@@ -38,7 +38,7 @@ http://alexgyver.ru/all-for-soldering/
 
 ## Информация
 Как установить Arduino IDE есть тут http://alexgyver.ru/arduino-first/  
-Для работы с ESP нужно установить ядро в Arduino IDE, вся инфа тут https://esp8266.ru/arduino-ide-esp8266/ или тут https://geektimes.ru/post/271754/  
+Для работы с ESP нужно установить ядро в Arduino IDE, вся инфа тут https://geektimes.ru/post/271754/  
 Настройки Arduino IDE  
 ![SETTINGS](https://github.com/AlexGyver/YouTube_widget/blob/master/Scheme%2C%20drawings/settings.jpg)
 
