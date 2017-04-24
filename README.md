@@ -37,6 +37,7 @@ http://alexgyver.ru/all-for-soldering/
 ![BODY](https://github.com/AlexGyver/YouTube_widget/blob/master/Scheme%2C%20drawings/Drawings.pdf)
 
 ## Информация
+Проект в EasyEDA https://goo.gl/rsDe4o  
 Как установить Arduino IDE есть тут http://alexgyver.ru/arduino-first/  
 Для работы с ESP нужно установить ядро в Arduino IDE, вся инфа тут https://geektimes.ru/post/271754/  
 Настройки Arduino IDE  
