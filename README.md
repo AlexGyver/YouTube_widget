@@ -2,39 +2,50 @@
 
 ## Папки
 
-**Библиотеки** - библиотека для модуля и дисплея, установить в C:\Program Files\Arduino\libraries
+**Library** - библиотека для модуля и дисплея, установить в C:\Program Files\Arduino\libraries
   
-**silver_button_count** - первая версия системы
-
-## Схема
-![СХЕМА](https://github.com/AlexGyver/YT_Subscribe_counter/blob/master/scheme.jpg)
+**subs_counter_v_2.0** - вторая версия системы
 
 ##  Материалы и компоненты
 Всё указанное ниже можно найти здесь
-http://alexgyver.ru/arduino_shop/
+http://alexgyver.ru/arduino_shop/  
+* ESP8266 http://ali.pub/1dknzs
+* LCD 1602 I2C http://ali.pub/1dko5f
+* Понижайка http://ali.pub/1dko9i
+* RGB LED http://ali.pub/1dkoin
+* Фоторезистор http://ali.pub/1dkp9v
 
-* ESP 8266 v7 http://ali.pub/1876nc
-* Дисплей http://ali.pub/oitu5
-* Светодиоды http://ali.pub/1876nq
-* Понижайка http://ali.pub/1876op
-* Кнопки и прочее http://alexgyver.ru/electronics/
+Резисторы  
+https://www.chipdip.ru/catalog/rezistory  
+* 270 Ом - 1 шт.
+* 220 Ом - 1 шт.
+* 120 Ом - 1 шт.
+* 50 Ом - 1 шт.
+* 47 кОм - 1 шт.
+* 10 кОм - 5 шт.
+* Паяльники, текстолит, припой  
+http://alexgyver.ru/all-for-soldering/
 
 ## Вам также пригодится 
 * Всё для пайки http://alexgyver.ru/all-for-soldering/
 * Электронные компоненты http://alexgyver.ru/electronics/
 
+## Печатная плата
+![PCB](https://github.com/AlexGyver/YouTube_widget/blob/master/Scheme%2C%20drawings/pcb_last_print.pdf)
+
+## Корпус
+![BODY](https://github.com/AlexGyver/YouTube_widget/blob/master/Scheme%2C%20drawings/Drawings.pdf)
+
+## Информация
+Как установить Arduino IDE есть тут http://alexgyver.ru/arduino-first/
+Для работы с ESP нужно установить ядро в Arduino IDE, вся инфа тут https://esp8266.ru/arduino-ide-esp8266/ или тут https://geektimes.ru/post/271754/
+Настройки Arduino IDE  
+![SETTINGS](https://github.com/AlexGyver/YouTube_widget/blob/master/Scheme%2C%20drawings/settings.jpg)
+
+
 ## HOW TO
-
-`const char* ssid = "WIFI login";`  
-вместо **WIFI login** вписать логин вайфая для роутера  
-`const char* password = "WIFI pass";`  
-вместо **WIFI pass** вписать пароль вайфая для роутера  
-
-`String host = "https://www.googleapis.com/youtube/v3/channels?part=statistics&key=(API KEY)&id=(CHANNEL ID)";`  
-вместо **API KEY** вписать полученный в гугле ключ API  
-вместо **CHANNEL** ID вписать ID канала  
-
-`String httpsFingerprint = "20:47:22:DB:D3:C9:1E:8F:6F:C1:C2:B2:3C:8C:8A:0F:C8:88:3E:45";`  
-с этим проблема, ключ меняется раз в два дня, решение пока не нашёл  
-
-Для работы с ESP нужно установить ядро в Arduino IDE, вся инфа тут https://esp8266.ru/arduino-ide-esp8266/  
+const char* ssid = "LOGIN";           // имя wifi роутера / точки доступа  
+const char* password = "PASSWORD";    // пароль wifi роутера / точки доступа  
+String channel_ID = "ID";             // ID канала (копировать из строки адреса канала)  
+String API_key = "KEY";               // API ключ аккаунта канала (как получить: https://www.slickremix.com/docs/get-api-key-for-youtube/ )  
+int max_gain = 180;   // число подписок в час, при котором цвет станет красным  
