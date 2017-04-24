@@ -4,7 +4,7 @@
 
 **Library** - библиотека для модуля и дисплея, установить в C:\Program Files\Arduino\libraries
   
-**subs_counter_v_2.0** - вторая версия системы
+**subs_counter_v_2.0** - вторая версия системы (файл прошивки)
 
 ##  Материалы и компоненты
 Всё указанное ниже можно найти здесь
@@ -30,15 +30,15 @@ http://alexgyver.ru/all-for-soldering/
 * Всё для пайки http://alexgyver.ru/all-for-soldering/
 * Электронные компоненты http://alexgyver.ru/electronics/
 
-## Печатная плата
+## Печатная плата (PDF)
 ![PCB](https://github.com/AlexGyver/YouTube_widget/blob/master/Scheme%2C%20drawings/pcb_last_print.pdf)
 
-## Корпус
+## Корпус (PDF)
 ![BODY](https://github.com/AlexGyver/YouTube_widget/blob/master/Scheme%2C%20drawings/Drawings.pdf)
 
 ## Информация
-Как установить Arduino IDE есть тут http://alexgyver.ru/arduino-first/
-Для работы с ESP нужно установить ядро в Arduino IDE, вся инфа тут https://esp8266.ru/arduino-ide-esp8266/ или тут https://geektimes.ru/post/271754/
+Как установить Arduino IDE есть тут http://alexgyver.ru/arduino-first/  
+Для работы с ESP нужно установить ядро в Arduino IDE, вся инфа тут https://esp8266.ru/arduino-ide-esp8266/ или тут https://geektimes.ru/post/271754/  
 Настройки Arduino IDE  
 ![SETTINGS](https://github.com/AlexGyver/YouTube_widget/blob/master/Scheme%2C%20drawings/settings.jpg)
 
