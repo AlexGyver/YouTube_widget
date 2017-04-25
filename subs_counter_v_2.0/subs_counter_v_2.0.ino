@@ -1,12 +1,16 @@
 /* Счётчик подписчиков канала YouTube
   by AlexGyver
   2017
+  Реализовано: подключение к wifi с возможностью восстановить подключение, если оно было разорвано (без перезагрузки)
+  Получение отпечатка SSL сертификата (запрос идёт каждый раз, когда не получается подключиться к google.api)
+  Из ответа google.api получаем число подписчиков с любым количеством знаков (идёт отсечка по символу ")
+  Запаздывающий фильтр обеспечивает плавную смену цвета с периодом 15 минут
 */
 //-----------НАСТРОЙКИ-------------
-const char* ssid = "Xperia";           // имя wifi роутера / точки доступа
-const char* password = "12345678";     // пароль wifi роутера / точки доступа
-String channel_ID = "UCgtAOyEQdAyjvm9ATCi_Aig";  // ID канала (копировать из строки адреса канала)
-String API_key = "AIzaSyDl5aJiVId0gOjlVNn09qDI7Z4oSAPLPmU";  // API ключ аккаунта канала (как получить: https://www.slickremix.com/docs/get-api-key-for-youtube/ )
+const char* ssid = "LOGIN";           // имя wifi роутера / точки доступа
+const char* password = "PASS";     // пароль wifi роутера / точки доступа
+String channel_ID = "ID";  // ID канала (копировать из строки адреса канала)
+String API_key = "API";  // API ключ аккаунта канала (как получить: https://www.slickremix.com/docs/get-api-key-for-youtube/ )
 int max_gain = 180;   // число подписок в час, при котором цвет станет красным
 //-----------НАСТРОЙКИ-------------
 
@@ -138,7 +142,7 @@ void getSubs() {
         if (j == 6) {
           sub_string = "";
           start_point = i + 6;
-          for (int ii = start_point; ii < start_point + 6; ii++) {
+          for (int ii = start_point; payload[ii] != '"'; ii++) {
             sub_string += payload[ii];
           }
           new_subscribers = sub_string.toInt();

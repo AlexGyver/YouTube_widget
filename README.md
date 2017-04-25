@@ -10,6 +10,7 @@
 Всё указанное ниже можно найти здесь
 http://alexgyver.ru/arduino_shop/  
 * ESP8266 http://ali.pub/1dknzs
+* USB программатор http://ali.pub/1dor1j
 * LCD 1602 I2C http://ali.pub/1dko5f
 * Понижайка http://ali.pub/1dko9i
 * RGB LED http://ali.pub/1dkoin
