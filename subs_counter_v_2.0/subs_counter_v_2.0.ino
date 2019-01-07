@@ -55,7 +55,7 @@ void setup () {
   ESP.wdtDisable();
   ESP.wdtEnable(WDTO_8S);
   host = "https://www.googleapis.com/youtube/v3/channels?part=statistics&key=" + API_key + "&id=" + channel_ID;
-  Serial.begin(57600);
+  Serial.begin(115200);
   pinMode(A0, INPUT);
   pinMode(ledR, OUTPUT);
   pinMode(ledG, OUTPUT);
