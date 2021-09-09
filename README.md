@@ -9,12 +9,12 @@
 ##  Материалы и компоненты
 Всё указанное ниже можно найти здесь
 http://alexgyver.ru/arduino_shop/  
-* ESP8266 https://ali.ski/RMNXdG
-* USB программатор https://ali.ski/7O8txl
-* LCD 1602 I2C https://ali.ski/_HBB4
-* Понижайка https://ali.ski/5b45Eh
-* RGB LED https://ali.ski/rsJEDQ
-* Фоторезистор https://ali.ski/WfNP0
+* ESP8266 https://ali.ski/Pia50
+* USB программатор https://ali.ski/lY17C0
+* LCD 1602 I2C https://ali.ski/zsqdc
+* Понижайка https://ali.ski/pxjc-
+* RGB LED https://ali.ski/c6ahr
+* Фоторезистор https://ali.ski/3UDgOG
 
 Резисторы  
 https://www.chipdip.ru/catalog/rezistory  
