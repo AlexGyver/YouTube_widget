@@ -6,27 +6,6 @@
   
 **subs_counter_v_2.0** - вторая версия системы (файл прошивки)
 
-##  Материалы и компоненты
-Всё указанное ниже можно найти здесь
-http://alexgyver.ru/arduino_shop/  
-* ESP8266 https://ali.ski/RMNXdG
-* USB программатор https://ali.ski/7O8txl
-* LCD 1602 I2C https://ali.ski/_HBB4
-* Понижайка https://ali.ski/5b45Eh
-* RGB LED https://ali.ski/rsJEDQ
-* Фоторезистор https://ali.ski/WfNP0
-
-Резисторы  
-https://www.chipdip.ru/catalog/rezistory  
-* 270 Ом - 1 шт.
-* 220 Ом - 1 шт.
-* 120 Ом - 1 шт.
-* 50 Ом - 1 шт.
-* 47 кОм - 1 шт.
-* 10 кОм - 5 шт.
-* Паяльники, текстолит, припой  
-http://alexgyver.ru/all-for-soldering/
-
 ## Вам также пригодится 
 * Всё для пайки http://alexgyver.ru/all-for-soldering/
 * Электронные компоненты http://alexgyver.ru/electronics/
