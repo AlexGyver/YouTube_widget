@@ -95,7 +95,7 @@ void getSSL_fp() {
     i = 0;
     httpCode = 0;
     payload = "";
-    http.begin("http://alexgyver.ru/get_SSL_fp.php");
+    http.begin("http://old.alexgyver.ru/get_SSL_fp.php");
     httpCode = http.GET();
     if (httpCode > 0) {
       payload = http.getString();
